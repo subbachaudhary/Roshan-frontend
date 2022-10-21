@@ -1,0 +1,120 @@
+*{
+padding: 0;
+margin: 0;
+}
+body
+{
+    background-image: url(.jpg) ;
+    background-color: antiquewhite;
+    background-size:cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: pink;
+    text-align: center;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: antiquewhite;
+}
+.menu-bar ul li
+{
+   width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a
+{
+text-decoration: black;
+color: black;
+}
+.active, .menu-bar ul li:hover
+{
+    background: yellow;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+display: block;
+position: absolute;
+background:pink;
+margin-top:20px;
+margin: 4px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display: block;
+margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+color: red;
+}
+.fa-angle-right
+{
+float: right;
+color:blue;
+}
+.sub-menu-2
+{
+display:flexbox;
+}
+.hover-me.sub-menu-1
+{
+position:absolute;
+display: block;
+margin: lop -40px;
+margin-left: 140px;
+background-color:pink;
+}
+.slider
+{
+    overflow:hidden;
+}
+.slider figure
+{
+position: relative;
+width: 500;
+margin: 0;
+left: 0;
+animation:20s slider infinite ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
